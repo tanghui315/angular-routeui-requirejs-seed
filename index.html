@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en"  class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en"  class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en"  class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+  <ui-view></ui-view>
+
+  <div>Felix Angular seed app: v1.2</div>
+
+
+ <div>
+    <a ui-sref="login" >登录页</a>
+    <br/>
+    <a ui-sref="task" >任务列表</a>
+ </div>
+
+  <script data-main="require-config" src="require.js"></script>
+</body>
+</html>
